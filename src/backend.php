@@ -1,5 +1,8 @@
 <?php
 
+use src\TicTacToeController;
+use src\TicTacToeValidator;
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $requestData = json_decode(file_get_contents('php://input'), true);
     switch ($requestData['route']) {

@@ -1,5 +1,6 @@
 <?php
 
+namespace src;
 class TicTacToeValidator
 {
     const POSITIVE = 'Yes';
@@ -7,6 +8,7 @@ class TicTacToeValidator
     const CHAR_X = 'X';
     const CHAR_O = 'O';
     const CHAR_DOT = '.';
+
     public function validateGrids($grids): array
     {
         $results = [];

@@ -1,5 +1,7 @@
 <?php
 
+namespace src;
+
 class TicTacToeController
 {
     private TicTacToeValidator $validator;
