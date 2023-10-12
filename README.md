@@ -11,3 +11,5 @@ Note: The application incorporates client-side JavaScript for dynamic interactio
    processing, providing a comprehensive solution for Tic Tac Toe grid validation.
 
 entrypoint: http://localhost:8000/public
+
+![alt text](https://github.com/kirilnih/tic-tac-toe-validator/blob/main/public/test-case.png?raw=true)
