@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (isValid) {
             const route = 'validate'; // Specify the route name
-            fetch("index.php", {
+            fetch("backend.php", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded",
